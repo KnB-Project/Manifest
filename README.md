@@ -180,7 +180,7 @@ ulimit -S -n 1024
      curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
      chmod a+x ~/bin/repo
 
-     repo init -u https://github.com/XPerience-AOSP-Lollipop/Manifest -b xpe-11.0
+     repo init -u https://github.com/KnB-Project/Manifest.git -b xpe-11.0
      repo sync
 
 ## Generating the keys
